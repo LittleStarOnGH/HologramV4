@@ -29,7 +29,7 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    /*background-color: #000000;*/
+    background-color: transparent;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -38,7 +38,7 @@ body {
 #hologram-container {
     width: 100%;
     height: 100%;
-    background-color: #000000;
+    background-color: transparent;
 }
 
 #mode {
