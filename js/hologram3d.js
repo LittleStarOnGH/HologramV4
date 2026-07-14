@@ -39,7 +39,7 @@ function init() {
     renderer.localClippingEnabled = true; 
 
     //renderer.setClearColor(Colour code Hexadecimal, opacity 0-1 โปร่งใส และทึบ);
-    renderer.setClearColor(0x000000, 1);
+    renderer.setClearColor(0x000000, 0);
     renderer.outputEncoding = THREE.sRGBEncoding; 
     renderer.toneMapping = THREE.ACESFilmicToneMapping; 
     renderer.toneMappingExposure = 0.6; 
