@@ -8,7 +8,13 @@ const peerOptions = {
     config: {
         'iceServers': [
             { urls: 'stun:stun.l.google.com:19302' },
-            { urls: 'stun:global.stun.twilio.com:3478' }
+            { urls: 'stun:global.stun.twilio.com:3478' },
+            
+            {
+                urls: 'turn:global.relay.metered.ca:80', //need to click show ICE server array 
+                username: '2de0bf1b8d13aaa0ec824030', //the metered turn server username 
+                credential: '2wMefZWqrUGWJoHs' //password
+            }
         ]
     }
 };
